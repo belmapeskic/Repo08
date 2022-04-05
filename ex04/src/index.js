@@ -11,7 +11,7 @@ function function2() {
     }
 
     if(typeof myLocalVariable != "undefined") {
-        result += " myLocalVariable:" + myLocalVariable;
+        result += " myLocalVariable: " + myLocalVariable;
     }
     console.log(result);
 }
